@@ -2,4 +2,4 @@
 
 2) It shows a webpage saying 'The install worked sucessfully! Congratulations!' there are links to django related items on it.
 
-3)
+3) / gives a 404 error, polls/ returns a page rendering the contents of /polls/views.py
