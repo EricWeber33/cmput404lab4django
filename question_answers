@@ -3,3 +3,13 @@
 2) It shows a webpage saying 'The install worked sucessfully! Congratulations!' there are links to django related items on it.
 
 3) / gives a 404 error, polls/ returns a page rendering the contents of /polls/views.py
+
+4) a django migration is how changes to models are made, including the database schema.
+
+5) A site adminstration wep page with options to modify the database schemas or add to them.
+
+6) using polls/38/ says displays 'You're looking at question 38' similar messages are displayed for the polls/38/vote/ and polls/38/results/ pages. Using a string a 404 page is returned as that is not an accepted pattern in our urls. To match any arbitrary input the question id can be specified to be a string instead of an integer.
+
+7) for the same reasons you don't hardcode stuff normally, it will become challenging to change hardcoded urls on larger projects.
+
+8) Its quicker to make for simple things. You shouldn't use them when you want to add more complicated custom logic.
